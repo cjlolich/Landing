@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container-wrap {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+}
+
+nav {
+  background-color: #4e9525;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  display: flex;  
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+  font-weight: 600;
+}
+
+.item {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  
+  border-bottom: solid 2px transparent;
+  transition: all 0.5s;
+}
+
+.item:hover {
+  color: #FAD241;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+
+  border-bottom: solid 2px #FAD241;  
+  transition: .3;
+}
+
+
+.home {
+  /* background-image: url(/images/bg_1.jpg); */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/bg_1.jpg); /* no-repeat center center fixed; */
+
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 400px 100px;
+  
+  height: 300px;
+  width: auto;
+}
+
+.home:before {
+  content: '';
+  position: absolute;
+}
+
+.text-home {
+  text-align: left;
+  margin-left: 500px;
+}
+
+h1 {
+  color: white; /* hsla(120, 20%, 10%, .5)*/
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  width: 40%;
+}
+
+h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  font-weight: 800;
+  padding-top: 10px;
+padding-bottom: 30px;
+}
+
+.welcome {
+  color: #FAD241;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 800;
+}
+
+.learn_more {
+  background-color: #4e9525;
+  color: white;
+  padding: 10px 25px;
+  font-size: 25px;
+  border: none;
+  border-radius: 5%;
+  text-align: center;
+}
+
+/* ***** SECTION SOCIAL FEED ***** */
+.social-feed {
+  margin-top: 20px;
+}
+
+.social-feed .fab { 
+  background: rgba(0, 0, 0, 0.05);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-top: 2px;
+  text-align: center;
+  color: grey;
+  box-sizing: border-box;
+}
+
+.social-feed .fab:hover {
+  color: #4e9525
+}
+
+
+.icon-social {
+margin-top: 20px;
+display: inline-block;
+}
+
+
+
+
+
+/* ***** SECTION CARDS ***** */
+.cards-container {
+  margin: 100px 20px;
+  display: flex;
+  width: 90%;
+}
+
+.card {
+  /* display: flex; */
+  border: gray;
+  margin-left: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+ box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+ height: 25rem;
+}
+
+.card h3 {
+  color: black;
+  text-transform: none;
+}
+
+.card i {
+  border-radius: 50%;
+  padding: 25px 25px;
+  background-color:rgba(0,0,0,0.1)
+}
+.card i:hover {
+  color: #FBD341;
+  background-color: rgb(59, 99, 19);
+  transition: all 0.5s;
+
+}
+
+.sector {
+  margin-left: 50px;
+  margin-right: 80px;
+  /* margin-right: 50px; */
+}
+
+.sector-title {
+  font-size: 16px;
+}
+
+.sector button {
+  background-color: #4F9526;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #4F9526;
+}
+
+.fad {
+  margin-top: 30px;
+}
+
+/* ***** SECTOR TRACTOR ***** */
+.imagen-tractor {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/about.jpg); /* no-repeat center center fixed; */
+}
