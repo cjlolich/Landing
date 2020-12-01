@@ -52,7 +52,7 @@ li {
 
 .home {
   /* background-image: url(/images/bg_1.jpg); */
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/bg_1.jpg'); /* no-repeat center center fixed; */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/bg_1.jpg'); /* no-repeat center center fixed; */
 
   position: relative;
 
